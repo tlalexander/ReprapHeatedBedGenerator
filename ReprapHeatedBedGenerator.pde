@@ -127,7 +127,7 @@ println(voltage*current+" watts drawn");
 
 PrintWriter output = createWriter( "result.brd" );
 
-output.print(xml.toString(2));
+output.print(xml.toString());
 output.close();
 
 
